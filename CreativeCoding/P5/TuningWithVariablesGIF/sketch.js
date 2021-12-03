@@ -1,7 +1,7 @@
 let gif; //for a gif you need to replace "img" with "gif"
 
 function preload (){
-  gif = loadImage ('assets/AiBackgroundSingle75.png')
+  gif = loadImage ('AiBackground.gif')
 }
 
 function setup() { //runs once
