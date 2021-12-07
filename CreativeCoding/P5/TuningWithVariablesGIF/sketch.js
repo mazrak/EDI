@@ -10,7 +10,7 @@ function setup() { //runs once
 
 function draw() {
 
-background (255)
+background (255, 232, 252)
 
 var num = 15; //variable for the number of squares in the array
 var sideLen = windowWidth/num; //variable for the side length of each square
