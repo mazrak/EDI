@@ -5,7 +5,7 @@ function preload (){
 }
 
 function setup() { //runs once
-  createCanvas(windowWidth, windowHeight * 2);
+  createCanvas(windowWidth, windowHeight * 2.5);
 }
 
 function draw() {
@@ -15,7 +15,7 @@ background (255, 232, 252)
 var num = 40; //variable for the number of squares in the array
 var sideLen = windowWidth/num; //variable for the side length of each square
 
-  for (var y = 0; y < windowHeight * 2; y = y + sideLen) { // loop to create rows in the y direction
+  for (var y = 0; y < windowHeight * 2.5; y = y + sideLen) { // loop to create rows in the y direction
   for (var x = 0; x < windowWidth; x = x + sideLen) {// loop to create a row of squares in the x direction
 image (gif, x, y, windowWidth/num, windowWidth/num)
   }
